@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MorashaCamp Adventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="#hero">MorashaCamp</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+          <span></span><span></span>
+        </button>
+        <div class="nav-panel" data-nav-panel>
+          <a href="#explore" data-i18n="nav.explore">Explore</a>
+          <a href="#story" data-i18n="nav.story">Our Story</a>
+          <a href="#legacy" data-i18n="nav.website">Website</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="#support" data-i18n="nav.support">Support</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+          <div class="language-switcher" aria-label="Language selector">
+            <button class="lang-btn active" type="button" data-lang="en">EN</button>
+            <button class="lang-btn" type="button" data-lang="ru">RU</button>
+            <button class="lang-btn" type="button" data-lang="he">HE</button>
+          </div>
+          <a class="btn btn-light nav-cta" href="#book" data-i18n="nav.book">Book Now</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1 id="hero-title" data-i18n="hero.title">MORASHACAMPS ADVENTURES</h1>
+          <div class="hero-bottom">
+            <p data-i18n="hero.copy">Discover the freedom of the open road with our premium camp and retreat experiences. Your next great adventure starts here.</p>
+            <a class="btn btn-primary" href="#explore" data-i18n="hero.cta">Let’s Go!</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section camps" id="explore">
+        <div class="container">
+          <div class="section-intro split-intro">
+            <h2 data-i18n="camps.heading">Explore our top-rated camps for unforgettable trips</h2>
+            <div>
+              <p data-i18n="camps.copy">Browse our available retreats and find the perfect match for your next adventure. All vehicles are thoroughly maintained and ready for the road.</p>
+              <a class="btn btn-outline" href="#" data-i18n="camps.viewAll">View All</a>
+            </div>
+          </div>
+          <div class="camp-grid">
+            <article class="camp-card">
+              <img src="assets/camp-lake.svg" alt="Lakeside camp placeholder" />
+              <div class="card-head"><h3 data-i18n="cards.0.title">Luxury Lakeside Retreat</h3><span>★ 4.7</span></div>
+              <p data-i18n="cards.0.copy">Experience serene waterside camping with premium amenities and peaceful lake views.</p>
+              <div class="meta"><span>⌂ Boys & Girls</span><span>•</span><span data-i18n="cards.meta">Curated camps 10h G...</span></div>
+              <a class="btn btn-card" href="#book" data-i18n="cards.reserve">Reserve Today</a>
+            </article>
+            <article class="camp-card">
+              <img src="assets/camp-sunset.svg" alt="Sunset beach camp placeholder" />
+              <div class="card-head"><h3 data-i18n="cards.1.title">Sunset Valley Camp</h3><span>★ 4.9</span></div>
+              <p data-i18n="cards.1.copy">Wake up near mountain waterlines and gather around golden evening fires.</p>
+              <div class="meta"><span>⌂ Boys & Girls</span><span>•</span><span data-i18n="cards.meta">Curated camps 10h G...</span></div>
+              <a class="btn btn-card" href="#book" data-i18n="cards.reserve">Reserve Today</a>
+            </article>
+            <article class="camp-card">
+              <img src="assets/camp-mountain.svg" alt="Mountain tent camp placeholder" />
+              <div class="card-head"><h3 data-i18n="cards.2.title">Alpine Horizon Base</h3><span>★ 4.8</span></div>
+              <p data-i18n="cards.2.copy">A calm mountain escape with guided trails, comfortable tents, and big-sky views.</p>
+              <div class="meta"><span>⌂ Boys & Girls</span><span>•</span><span data-i18n="cards.meta">Curated camps 10h G...</span></div>
+              <a class="btn btn-card" href="#book" data-i18n="cards.reserve">Reserve Today</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section commitment" id="story">
+        <div class="container split-section">
+          <img class="feature-image" src="assets/forest-tents.svg" alt="Forest tents placeholder" />
+          <div class="feature-copy">
+            <h2 data-i18n="commit.heading">Your adventure, our commitment</h2>
+            <p data-i18n="commit.copy">Experience hassle-free camping with tailored solutions, expert guidance, and premium gear to elevate your journey.</p>
+            <ul class="check-grid">
+              <li data-i18n="commit.items.0">Emergency support anytime</li>
+              <li data-i18n="commit.items.1">Modern cooking facilities</li>
+              <li data-i18n="commit.items.2">Flexible travel plans</li>
+              <li data-i18n="commit.items.3">Options for special occasions</li>
+              <li data-i18n="commit.items.4">Comprehensive protection plans</li>
+              <li data-i18n="commit.items.5">Detailed trip briefing</li>
+            </ul>
+            <div class="button-row"><a class="btn btn-primary" href="#explore" data-i18n="commit.primary">Explore Morasha</a><a class="btn btn-outline" href="#contact" data-i18n="commit.secondary">Get in Touch</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="legacy" id="legacy">
+        <div class="legacy-bg"></div>
+        <div class="container legacy-wrap">
+          <div class="legacy-card">
+            <h2 data-i18n="legacy.heading">Morasha Legacy</h2>
+            <p data-i18n="legacy.copy">Morasha Camps is built on clean and Zionist values and crafted with comfort, character, and community through camping, travel, and innovative programming.</p>
+            <a class="btn btn-primary" href="#book" data-i18n="legacy.cta">Reserve Now</a>
+            <div class="legacy-grid">
+              <div><b>◎</b><h3 data-i18n="legacy.items.0.title">View Camps</h3><p data-i18n="legacy.items.0.copy">Choose from a diverse selection of camps.</p></div>
+              <div><b>◎</b><h3 data-i18n="legacy.items.1.title">Pack Dates</h3><p data-i18n="legacy.items.1.copy">Easily choose your travel period.</p></div>
+              <div><b>◎</b><h3 data-i18n="legacy.items.2.title">Pickup</h3><p data-i18n="legacy.items.2.copy">Receive a thorough walk-through.</p></div>
+              <div><b>◎</b><h3 data-i18n="legacy.items.3.title">Journey</h3><p data-i18n="legacy.items.3.copy">Make lasting stories and memories.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="support">
+        <div class="container">
+          <h2 class="center" data-i18n="values.heading">Core Values</h2>
+          <div class="testimonial-grid">
+            <img src="assets/portrait-one.svg" alt="Camper portrait placeholder" />
+            <article class="quote green"><p data-i18n="values.q1">“Our family’s cross-country trip was a dream come true, thanks to this RV. It was clean, reliable, and the support team was always there for us.”</p><small>Devorah Rose</small></article>
+            <img class="wide-img" src="assets/portrait-two.svg" alt="Outdoor portrait placeholder" />
+            <article class="quote green"><p data-i18n="values.q2">“The RV made our honeymoon unforgettable! It was the perfect blend of adventure and comfort, with stunning views from every window.”</p><small>Dani Levi Smith</small></article>
+            <img src="assets/portrait-three.svg" alt="Winter traveler placeholder" />
+            <article class="quote charcoal"><p data-i18n="values.q3">“We rented RVs before, but this experience was top-notch. The RV was immaculate, well-equipped, and the entire process was seamless.”</p><small>Kaleb Blum</small></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="pricing">
+        <img class="side side-left" src="assets/cta-left.svg" alt="Outdoor morning placeholder" />
+        <div class="cta-copy">
+          <h2 data-i18n="cta.heading">Your Home for Retreats, Shabbatons & Special Occasions</h2>
+          <p data-i18n="cta.copy">Morasha Camps can turn calendar moments into memorable retreats — our team manages everything from transportation to meals, programming, and permits.</p>
+          <div class="button-row centered"><a class="btn btn-primary" href="#book" data-i18n="cta.primary">Get Started Today</a><a class="btn btn-outline" href="#contact" data-i18n="cta.secondary">Speak with an Expert</a></div>
+        </div>
+        <img class="side side-right" src="assets/cta-right.svg" alt="Mountain camp placeholder" />
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <div><h3>Morasha Camps</h3><p data-i18n="footer.copy">Your trusted partner for unforgettable camping adventures. Quality vehicles, expert care, and thoughtful planning.</p><div class="socials"><span>f</span><span>◎</span><span>𝕏</span><span>▶</span></div></div>
+        <div><h4 data-i18n="footer.company">Company</h4><a>Home</a><a>About Us</a><a>Programs</a><a>FAQs & News</a></div>
+        <div><h4 data-i18n="footer.resources">Resources</h4><a>Rentals & Guides</a><a>Technical Support</a><a>FAQ</a></div>
+        <div><h4 data-i18n="footer.contact">Contact</h4><p>Email: hello@morashacamps.com</p><p>Phone: +1 (908) 123 4067</p><p>Address: 1000 S Elm Ashwood Home</p></div>
+      </div>
+      <div class="container footer-bottom"><p>© 2026 Morasha Camps. All rights reserved.</p><p>Privacy &nbsp; Policy &nbsp; Terms & Conditions</p></div>
+      <div class="wordmark">MORASHACAMP</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
